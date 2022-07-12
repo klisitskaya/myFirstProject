@@ -1,0 +1,142 @@
+@media(max-width: 1196px){
+    .form button {
+        font-size: 16px; 
+    }  
+}
+
+@media(max-width: 1124px){
+    .right_column_property {
+        display: none;
+    }
+    .left_column_property {
+        width: 100%;
+    }
+    .form button {
+        font-size: 20px; 
+    }  
+}
+
+@media(max-width: 1044px){
+
+    .header_bot_main {
+        width: 90%;
+    }
+    .nav a { 
+        padding: 0; 
+    }
+
+    .burger {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .header_bucket img {
+        display: none;
+    }
+
+    .find {
+        display: none;
+    }
+
+    .nav ul {
+        display: none;
+        top: 0;
+        right: 0;
+        background: #939878;
+        opacity: .6;
+        position:fixed;
+        padding: 5%;
+        min-width: 100px;
+        height: 100%;
+        padding-top: 150px;
+    }
+
+    #burger:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav li {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 600px){
+    .burger {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .property_img1, .property_img2 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .left_column_property_content {
+        width: 65%;
+        margin: 0 auto;
+        padding: 150px 0;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    .form form input {
+        width: 100%;
+    }
+
+    .form button {  
+        width: 100%;  
+    } 
+}
+
+@media(max-width: 510px){
+
+    .burger::before {
+        content: "≡";
+        font-size: 20px;
+    }
+    .header_bucket img {
+        padding-top: 10px;
+        width: 70px;
+        height: 30px;
+    }
+
+    .find {
+        width: 100px;
+        height: 20px;
+        font-size: 14px;   
+    }
+
+    .btn a {
+        padding: 0; 
+    }
+
+    .btn {
+        margin-left: 5px; 
+    }
+}
+
+@media(max-width: 500px){
+    .left_column_property_content h1 {
+        font-size: 42px;
+    }
+}
+
+
+@media(max-width: 500px){
+    .left_column_property_content h1 {
+        line-height: 40px;    
+    }
+}
+
+@media(max-width: 390px){
+    .header_bucket img {
+        display: none;
+    }
+
+    .find {
+        display: none;
+    }
+}
